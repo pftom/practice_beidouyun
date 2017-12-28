@@ -208,7 +208,7 @@
                       <span class="consec">案件类型图</span> 
                     </p>
                   </div>
-                  <div id="cluster" style="width: 100%;height:400px;"></div>
+                  <div id="pie_first" style="width: 100%;height:280px;"></div>
                 </div>
                 <div class="chartsone">
                   <div class="page-header tits">
@@ -217,7 +217,7 @@
                       <span class="consec">案件趋势图</span> 
                     </p>
                   </div>
-                  <div id="cluster" style="width: 100%;height:400px;"></div>
+                  <div id="pie_second" style="width: 100%;height:280px;"></div>
                 </div>
             </div>
             <!-- 图表 end -->
@@ -326,7 +326,69 @@
     <script src="../../js/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/common.js"></script>
+    <script src="../../js/echarts.js"></script>
     <script type="text/javascript">
-    
+        var pie_first = document.getElementById('pie_first');
+        var pie_second = document.getElementById('pie_second');
+        var myChart_first = echarts.init(pie_first);
+        var myChart_second = echarts.init(pie_second);
+
+        option = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                data:['电子邮件','图片资料','综合文档']
+            },
+            series: [
+                {
+                    name:'访问来源',
+                    type:'pie',
+                    radius: ['30%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data:[
+                        {
+                            value:735, 
+                            name:'电子邮件',
+                            itemStyle: {
+                                normal: {
+                                    color: '#2baae3'
+                                }
+                            }
+                        },
+                        {
+                            value:210, 
+                            name:'图片资料',
+                            itemStyle: {
+                                normal: {
+                                    color: '#ff7676'
+                                }
+                            }
+                            
+                        },
+                        {
+                            value:334, 
+                            name:'综合文档',
+                            itemStyle: {
+                                normal: {
+                                    color: '#52e59d'
+                                }
+                            }
+                        },
+                    ]
+                }
+            ]
+        };
+        
+        myChart_first.setOption(option);
+        myChart_second.setOption(option);
     </script>
 </html>

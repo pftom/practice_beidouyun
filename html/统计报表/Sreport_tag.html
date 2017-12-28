@@ -193,7 +193,7 @@
                     <span class="consec">标签统计图</span> 
                   </p>
                 </div>
-                <div id="cluster" style="width: 100%;height:400px;"></div>
+                <div id="cluster" style="width: 100%;height:246px;"></div>
               </div>
             <!-- 图表 end -->
             
@@ -293,7 +293,80 @@
     <script src="../../js/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/common.js"></script>
+    <script src="../../js/echarts.js"></script>
     <script type="text/javascript">
-    
+        var cluster = document.getElementById('cluster');
+        var myChart = echarts.init(cluster);
+
+       var option = {
+            tooltip : {
+                trigger: 'axis',
+                axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                    type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                }
+            },
+            color: ['#c6c6c6'],
+            legend: {
+                data: ['Data One', 'Data Two','Data Three'],
+                right: '5%',
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            textStyle: {
+                color: '#c6c6c6',
+            },
+            xAxis:  {
+                type: 'category',
+                data: ['0.0', '1.0', '2.0', '3.0', '4.0', '5.0', '6.0', '7.0', '8.0', '9.0', '10.0'],
+                axisLine: {
+                    lineStyle: {
+                        color: '#c6c6c6'
+                    }
+                },
+            },
+            yAxis: {
+                type: 'value',
+                axisLine: {
+                    lineStyle: {
+                        color: '#c6c6c6'
+                    }
+                },
+                splitLine: {
+                    lineStyle: {
+                        color: '#c9c9c9'
+                    }
+                }
+            },
+            series: [
+                {
+                    name: 'Data One',
+                    type: 'bar',
+                    stack: '总量',
+                    color: ['#4f5366'],
+                    barWidth: '30%',
+                    data: [320, 302, 301, 334, 390, 330, 320, 140, 200, 100, 60]
+                },
+                {
+                    name: 'Data Two',
+                    type: 'bar',
+                    stack: '总量',
+                    color: ['#5cbfc7'],
+                    data: [120, 132, 101, 134, 90, 230, 210, 140, 200, 100, 60]
+                },
+                {
+                    name: 'Data Three',
+                    type: 'bar',
+                    stack: '总量',
+                    color: ['#f09c7f'],
+                    data: [220, 182, 191, 234, 290, 330, 310, 140, 200, 100, 60]
+                },
+            ]
+        };
+
+        myChart.setOption(option);
     </script>
 </html>
