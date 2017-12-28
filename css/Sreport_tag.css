@@ -1,0 +1,479 @@
+@charset "UTF-8";
+/*字体颜色*/
+/*背景色颜色*/
+/*hover背景色*/
+/*基础蓝色*/
+/*线条颜色*/
+/*线条边框*/
+/*线条边框*/
+/*分页边框颜色*/
+p,
+span {
+  cursor: default;
+}
+/*头部start*/
+.navbar-inverse {
+  background-color: #00ade9;
+  border-color: #00ade9;
+}
+.navbar {
+  height: 70px;
+  margin-bottom: 0px !important;
+  padding: 0 30px;
+}
+.navLeft {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  float: left;
+  width: 320px;
+  margin-right: 80px;
+}
+.navLeft a {
+  display: inline-block;
+}
+.navLeft img {
+  display: inline-block;
+  width: 320px;
+  height: 28px;
+  vertical-align: middle;
+}
+.navMiddle {
+  display: inline-block;
+}
+.navMiddle .navTabs {
+  font-size: 0px;
+  display: inline-block;
+  height: 70px;
+  vertical-align: top;
+}
+.navMiddle .navTabs .selected a {
+  color: #ffffff !important;
+}
+.navMiddle .navTabs li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  height: 70px;
+  width: 90px;
+  vertical-align: top;
+  font-size: 14px;
+}
+.navMiddle .navTabs li .frichose {
+  width: 90px;
+  height: 70px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.navMiddle .navTabs li .frichose:hover {
+  color: #ffffff !important;
+}
+.navMiddle .navTabs li .frichose img {
+  margin: 15px 0 5px 0;
+}
+.navMiddle .navTabs li .frichose i {
+  display: block;
+  font-style: normal;
+  color: #ffffff;
+}
+.navMiddle .navTabs li:hover {
+  background-color: #009cd1;
+}
+.navMiddle .navTabs li:hover .nextchose {
+  display: inline-block;
+}
+.navMiddle .navTabs li .nextchose {
+  display: none;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 168px;
+  height: auto;
+  padding: 10px 0px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0px 5px 15px #999999;
+  -webkit-box-shadow: 0px 5px 15px #999999;
+  box-shadow: 0px 5px 15px #999999;
+}
+.navMiddle .navTabs li .nextchose p {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 22px;
+  color: #333333;
+}
+.navMiddle .navTabs li .nextchose p:hover {
+  background-color: #00ade9;
+  font-weight: 600;
+}
+.navMiddle .navTabs .selected {
+  background-color: #009cd1;
+}
+.navRight {
+  float: right;
+  color: #ffffff;
+  height: 70px;
+  width: 126px;
+  text-align: center;
+  background-color: #009cd1;
+}
+.navRight .timg {
+  margin: 10px 0 5px 0;
+}
+.navRight .timg .used {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+.navRight .fsize {
+  font-size: 14px;
+  color: #ffffff;
+}
+/*头部end*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: Microsoft Yahei, arial, verdana, sans-serif;
+  border: 0px;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.navbar {
+  min-width: 1405px;
+}
+/*内容*/
+.container {
+  min-width: 1374px;
+  overflow-x: auto;
+  margin-top: 70px;
+  /*分页*/
+  /*位置*/
+  /*间距*/
+  /*按钮*/
+  /*单选多选*/
+  /* 日历 */
+  /*输入框*/
+  /*下拉菜单*/
+  /*日历*/
+}
+.container .mypages {
+  float: right;
+}
+.container .mypages .lefts {
+  color: #555555;
+  font-size: 12px;
+  display: inline-block;
+}
+.container .mypages .mypage {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.container .mypages .mypage span,
+.container .mypages .mypage a {
+  font-size: 12px !important;
+  color: #666666;
+}
+.container .mypages .mypage a {
+  margin-right: 3px;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #cdd8dd;
+}
+.container .mypages .mypage .selected,
+.container .mypages .mypage .selected span {
+  background-color: #00afea;
+  color: #ffffff;
+}
+.container .page-header {
+  margin: 0px !important;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.container .page-header img {
+  margin: 10px;
+  display: inline-block;
+}
+.container .page-header p {
+  vertical-align: middle;
+  display: inline-block;
+  color: #666666;
+}
+.container .page-header p .confir {
+  color: #333333;
+}
+.container .mr {
+  margin-right: 25px;
+}
+.container .mybtns {
+  display: inline-block;
+  float: left;
+  margin-left: 16px;
+}
+.container .mybtns i {
+  padding-right: 5px;
+  vertical-align: middle;
+}
+.container .mybtns .btn {
+  width: 102px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px;
+  text-align: center;
+}
+.container .mybtns button:hover {
+  color: #ffffff;
+}
+.container .btn-defor {
+  color: #ffffff;
+  background-color: #00ade9;
+  border-color: #00ade9;
+}
+.container .wish-checkbox {
+  display: inline-block;
+  width: 24px;
+  line-height: 14px;
+  vertical-align: middle;
+}
+.container .wish-checkbox a {
+  display: inline-block;
+  width: 100%;
+  height: 24px;
+  background: url('../../images/ckbtn.png') center center no-repeat;
+  cursor: pointer;
+  outline: none;
+}
+.container .wish-checkbox .selected {
+  background: url('../../images/ckbtnS.png') center center no-repeat;
+}
+.container .dates {
+  vertical-align: middle;
+  cursor: default;
+  color: #666666;
+}
+.container .dates input {
+  border: 1px solid #eeeeee;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+  background: #f7f9fb url(../images/cander.png) no-repeat 92px;
+  width: 120px;
+  font-family: "Microsoft Yahei";
+}
+.container .input-normal input {
+  width: 100%;
+  font-size: 12px;
+  color: #999;
+  border: none;
+  background-color: transparent;
+  background: none;
+  vertical-align: top;
+}
+.container .input-normal {
+  border: 1px solid #cdd8dd;
+  background-color: #f7f9fb;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding-left: 12px;
+}
+.container .input-normal a {
+  display: inline-block;
+  width: 48px;
+  height: 40x;
+  background-color: #00afea;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.container .input-select {
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #cdd8dd;
+  background-color: #f7f9fb;
+}
+.container .input-select h1 {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 10px;
+  outline: none;
+  /* Safari 和 Chrome */
+  /* Firefox */
+  /* IE 9 */
+  -webkit-user-select: none;
+  /* Safari 和 Chrome */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE 9 */
+  user-select: none;
+  cursor: pointer;
+  background: url('../../images/arrowB03.png') 90% center no-repeat;
+}
+.container .input-select ul,
+.container .input-select li {
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  background-color: #ffffff;
+  text-indent: 1em;
+  list-style: none;
+  outline: none;
+  /* Safari 和 Chrome */
+  /* Firefox */
+  /* IE 9 */
+  -webkit-user-select: none;
+  /* Safari 和 Chrome */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE 9 */
+  user-select: none;
+  cursor: pointer;
+}
+.container .input-select li:hover {
+  background-color: #f7f9fb;
+}
+.container .input-select ul {
+  position: absolute;
+  max-height: 155px;
+  top: 31px;
+  min-height: 31px;
+  border: 1px solid #e3e6eb;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 999;
+}
+.container .inputCander {
+  display: inline-block;
+  position: relative;
+}
+.container .inputCander input {
+  border: 1px solid #cdd8dd;
+  width: 140px;
+  font-size: 12px;
+  color: #999999;
+}
+.container .inputCander img {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.container .inputCander .downSelect {
+  top: 16px;
+}
+.tablebox .table > thead > tr > th,
+.tablebox .table > tbody > tr > th,
+.tablebox .table > tfoot > tr > th,
+.tablebox .table > thead > tr > td,
+.tablebox .table > tbody > tr > td,
+.tablebox .table > tfoot > tr > td {
+  border-bottom: 0;
+  text-indent: 10%;
+  border-top: 0;
+  padding: 14px;
+  font-size: 12px;
+  color: #333333;
+}
+.tablebox .table a {
+  font-size: 12px;
+  color: #00ade9;
+}
+.tablebox .table > thead > tr,
+.tablebox .table > tbody > tr {
+  border-bottom: 1px solid rgba(205, 216, 221, 0.5);
+}
+.tablebox .table > thead .headTitle {
+  color: #4e657c;
+}
+.tablebox_multiColumn .table > thead > tr > th,
+.tablebox_multiColumn .table > tbody > tr > th,
+.tablebox_multiColumn .table > tfoot > tr > th,
+.tablebox_multiColumn .table > thead > tr > td,
+.tablebox_multiColumn .table > tbody > tr > td,
+.tablebox_multiColumn .table > tfoot > tr > td {
+  text-indent: 5%;
+}
+.datetime {
+  height: 72px;
+  background-color: #ffffff;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+.datetime .dates {
+  display: flex;
+  align-items: center;
+}
+.chartsone_box {
+  display: flex;
+}
+.chartsone_box .chartsone {
+  flex: 1;
+  margin-right: 1px;
+}
+.chartsone {
+  padding: 14px;
+  height: 322px;
+  background-color: #ffffff;
+}
+.chartsone .tits {
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 700;
+}
+.chartsone .tits .unit {
+  font-size: 12px;
+  color: #666666;
+}
+.chartsone_second {
+  margin-top: 22px;
+  height: 416px;
+}

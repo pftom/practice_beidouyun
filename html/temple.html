@@ -1,0 +1,1257 @@
+<<<<<<< .mine
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/bootstrapStyle.css" type="text/css">
+        <link rel="stylesheet" href="../css/plugs/common.css">
+        <link rel="stylesheet" href="../css/icomoon/style.css">
+        
+        <script src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.core.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.excheck.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.exedit.js"></script>
+    </head>
+    <body>
+        <!-- 头部 start -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navLeft">
+                <a href="#"><img src="../images/logo.png" alt="勋立云logo"></a>
+            </div>
+            <div class="navMiddle">
+                <ul class="navTabs">
+                    <li class="selected">
+                        <a href="#" class="frichose">
+                            <img src="../images/icon01.png">
+                            <i>系统首页</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon02.png">
+                            <i>线索中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon03.png">
+                            <i>兵器库</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon04.png">
+                            <i>拼图中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon05.png">
+                            <i>战法中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon06.png">
+                            <i>智能搜索</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon07.png">
+                            <i>外部数据库</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon08.png">
+                            <i>统计报表</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>数据类型统计</p>
+                            <p>数据趋势统计</p>
+                            <p>案件统计</p>
+                            <p>标签统计</p>
+                            <p>用户行为统计</p>
+                            <p>案件统计</p>
+                            <p>数据趋势统计</p>
+                            <p>数据统计</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon09.png">
+                            <i>系统管理</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navRight">
+                <p class="timg">
+                    <img class="used" src="../images/userd.png">
+                    <img src="../images/down.png">
+                </p>
+                <p class="fsize"><span style="margin-right:5px;">王明丽</span><span>处长</span></p>
+            </div>
+        </nav>
+        <!-- 头部 end -->
+        <div class="container">
+            <!-- 内容 start -->
+            <div style="overflow:hidden;">
+                <!-- 分页 start -->
+                <div class="mypages" style="margin-top:70px;">
+                    <p class="lefts">共 540 条，当前 12 / 24 页</p>
+                    <nav class="mypage" aria-label="Page navigation" >
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&lt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Previous" style="width:60px;">
+                                    <span aria-hidden="true" >上一页</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="selected">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Previous" style="width:60px;">
+                                    <span aria-hidden="true" >下一页</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&gt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a aria-label="Next" style="width:60px;overflow:hidden;margin-left:20px;">
+                                    <input type="text" placeholder="页数.." maxlength="3" style="width:30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">跳</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <!-- 分页 end -->
+            </div>
+            <!-- 位置 start -->
+            <div class="page-header">
+                <img src="../images/marks.png">
+                <p>
+                    <span class="confir">兵器库</span>  &gt  
+                    <span class="consec">邮件挖掘</span>
+
+                </p>
+            </div>
+            <!-- 位置 end -->
+            <!-- 按钮 start-->
+            <div class="mybtns">
+                <button type="button" class="btn btn-defor" style="margin-right:14px;" ><i class="icon-search"></i>查询</button>
+                <button type="button" class="btn btn-defor"><i class="icon-export"></i>导出</button>
+                <button type="button" class="btn btn-defor" style="margin-right:14px;"><i class="icon-import"></i>导入</button>
+                <button type="button" class="btn btn-defor"><i class="icon-plus"></i>添加</button>
+            </div>
+
+
+            <!-- 多/单选框 begin -->
+            <!-- 顺序引用template.css common.js -->
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox" name="aa"></a>
+                  <input type="checkbox" style="display:none" value="自然人贡献度分析图">
+              </div>
+              <span>自然人贡献度分析图</span>
+            </label>
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox" name="aa"></a>
+                  <input type="checkbox" value="楼宇模型图" style="display:none">
+              </div>
+              <span>楼宇模型图</span>
+            </label>
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox"></a>
+                  <input type="checkbox" style="display:none" value="标签统计图">
+              </div>
+              <span>标签统计图</span>
+            </label>
+            <!-- 多/单选框 end -->
+            <!-- 日历插件 -->
+            <div class="dates">
+                <span style="vertical-align:middle;margin-right:10px;">日期区间:</span>
+                <div class="inputCander" style="margin-right:8px;">
+                    <input type="text" placeholder="全部" >
+                    <img src="../images/cander.png">
+                </div> - 
+                <div class="inputCander" style="margin-left:8px;">
+                    <input type="text" placeholder="全部">
+                    <img src="../images/cander.png">
+                </div>
+            </div>
+            <br><br>
+            <!-- 输入框 start -->
+            <div class="input-normal" style="width:250px">
+                <input type="text" placeholder="请输入嫌疑人的邮箱/姓名...">
+            </div>
+            <!-- 带搜索框 -->
+            <div class="input-normal" style="width:250px">
+                <input type="text" placeholder="请输入嫌疑人的邮箱/姓名..."><a class="icon-search"></a>
+            </div>
+            <!-- 输入框 end -->
+            <br><br>
+            <!-- 下拉菜单 begin -->
+            <div class="input-select" style="width:75px">
+                <h1 class="js-input-select-title" data-placeholder="日期"></h1>
+                <ul class="js-input-select" style="display:none;">
+                    <li id="0">啦啦啦1</li>
+                    <li id="1">啦啦啦2</li>
+                    <li id="2">啦啦啦3</li>
+                    <li id="3">啦啦啦4</li>
+                    <li id="4">啦啦啦5</li>
+                    <li id="5">啦啦啦6</li>
+                    <li id="6">啦啦啦7</li>
+                    <li id="7">啦啦啦8</li>
+                    <li id="8">啦啦啦9</li>
+                </ul>
+                <input type="hidden" style="display:none">
+                <!-- 表单存储选择内容 -->
+            </div>
+            <!-- 下拉菜单 end -->
+            <!-- 树形菜单 start -->
+            <script>
+                var setting = {
+                    view: {
+                        addHoverDom: addHoverDom,
+                        removeHoverDom: removeHoverDom,
+                        selectedMulti: false
+                    },
+                    check: {
+                        enable: true
+                    },
+                    data: {
+                        simpleData: {
+                            enable: true
+                        }
+                    },
+                    /*edit: {
+                        enable: true
+                    }*/
+                };
+
+                var zNodes =[
+                {id:1, pId:0, name:"案件1", open:true},
+                {id:101, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                {id:102, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                {id:103, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                {id:104, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                /*{id:108, pId:1, name:"异步加载 节点数据"},
+                {id:109, pId:1, name:"用 zTree 方法 异步加载 节点数据"},
+                {id:110, pId:1, name:"用 zTree 方法 更新 节点数据"},
+                {id:111, pId:1, name:"单击 节点 控制"},
+                {id:112, pId:1, name:"展开 / 折叠 父节点 控制"},
+                {id:113, pId:1, name:"根据 参数 查找 节点"},
+                {id:114, pId:1, name:"其他 鼠标 事件监听"},
+                {id:115, pId:1, name:"其他 鼠标 事件监听"},*/
+
+                {id:2, pId:0, name:"案件2", open:false},
+                {id:201, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:206, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:207, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:208, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:202, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                /*{id:203, pId:2, name:"用 zTree 方法 勾选 Checkbox"},
+                {id:204, pId:2, name:"Radio 勾选操作"},
+                {id:209, pId:2, name:"Radio nocheck 演示"},
+                {id:210, pId:2, name:"Radio chkDisabled 演示"},
+                {id:211, pId:2, name:"Radio halfCheck 演示"},
+                {id:205, pId:2, name:"用 zTree 方法 勾选 Radio"},*/
+
+                {id:3, pId:0, name:"案件3", open:false},
+                {id:301, pId:3, name:"张三<anjun@xunliinfo.com>..."},
+                {id:302, pId:3, name:"张三<anjun@xunliinfo.com>..."},
+                {id:303, pId:3, name:"张三<anjun@xunliinfo.com>..."},
+                /*{id:304, pId:3, name:"基本 增 / 删 / 改 节点"},
+                {id:305, pId:3, name:"高级 增 / 删 / 改 节点"},
+                {id:306, pId:3, name:"用 zTree 方法 增 / 删 / 改 节点"},
+                {id:307, pId:3, name:"异步加载 & 编辑功能 共存"},
+                {id:308, pId:3, name:"多棵树之间 的 数据交互"},*/
+
+                /*{id:4, pId:0, name:"大数据量 演示", open:false},
+                {id:401, pId:4, name:"一次性加载大数据量"},
+                {id:402, pId:4, name:"分批异步加载大数据量"},
+                {id:403, pId:4, name:"分批异步加载大数据量"},
+
+                {id:5, pId:0, name:"组合功能 演示", open:false},
+                {id:501, pId:5, name:"冻结根节点"},
+                {id:502, pId:5, name:"单击展开/折叠节点"},
+                {id:503, pId:5, name:"保持展开单一路径"},
+                {id:504, pId:5, name:"添加 自定义控件"},
+                {id:505, pId:5, name:"checkbox / radio 共存"},
+                {id:506, pId:5, name:"左侧菜单"},
+                {id:507, pId:5, name:"下拉菜单"},
+                {id:509, pId:5, name:"带 checkbox 的多选下拉菜单"},
+                {id:510, pId:5, name:"带 radio 的单选下拉菜单"},
+                {id:508, pId:5, name:"右键菜单 的 实现"},
+                {id:511, pId:5, name:"与其他 DOM 拖拽互动"},
+                {id:512, pId:5, name:"异步加载模式下全部展开"},
+
+                {id:6, pId:0, name:"其他扩展功能 演示", open:false},
+                {id:601, pId:6, name:"隐藏普通节点"},
+                {id:602, pId:6, name:"配合 checkbox 的隐藏"},
+                {id:603, pId:6, name:"配合 radio 的隐藏"}*/
+                ];
+
+                $(document).ready(function(){
+                    $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+                });
+
+                var newCount = 1;
+                function addHoverDom(treeId, treeNode) {
+                    var sObj = $("#" + treeNode.tId + "_span");
+                    if (treeNode.editNameFlag || $("#addBtn_"+treeNode.tId).length>0) return;
+                  /* var addStr = "<span class='button add' id='addBtn_" + treeNode.tId
+                        + "' title='add node' onfocus='this.blur();'></span>";
+                    sObj.after(addStr);*/
+                    var btn = $("#addBtn_"+treeNode.tId);
+                    if (btn) btn.bind("click", function(){
+                        var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+                        zTree.addNodes(treeNode, {id:(100 + newCount), pId:treeNode.id, name:"new node" + (newCount++)});
+                        return false;
+                    });
+                };
+                function removeHoverDom(treeId, treeNode) {
+                   $("#addBtn_"+treeNode.tId).unbind().remove();
+                };
+            </script>
+            <ul id="treeDemo" class="ztree"></ul>
+            <!-- 树形菜单 end -->
+        </div>
+        <!-- 内容 end -->
+    </body>
+    
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript">
+
+    </script>
+||||||| .r566
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/bootstrapStyle.css" type="text/css">
+        <link rel="stylesheet" href="../css/plugs/common.css">
+        <link rel="stylesheet" href="../css/icomoon/style.css">
+        
+        <script src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.core.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.excheck.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.exedit.js"></script>
+    </head>
+    <body>
+        <!-- 头部 start -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navLeft">
+                <a href="#"><img src="../images/logo.png" alt="勋立云logo"></a>
+            </div>
+            <div class="navMiddle">
+                <ul class="navTabs">
+                    <li class="selected">
+                        <a href="#" class="frichose">
+                            <img src="../images/icon01.png">
+                            <i>系统首页</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon02.png">
+                            <i>线索中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon03.png">
+                            <i>兵器库</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon04.png">
+                            <i>拼图中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon05.png">
+                            <i>战法中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon06.png">
+                            <i>智能搜索</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon07.png">
+                            <i>外部数据库</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon08.png">
+                            <i>统计报表</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>数据类型统计</p>
+                            <p>数据趋势统计</p>
+                            <p>案件统计</p>
+                            <p>标签统计</p>
+                            <p>用户行为统计</p>
+                            <p>案件统计</p>
+                            <p>数据趋势统计</p>
+                            <p>数据统计</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon09.png">
+                            <i>系统管理</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navRight">
+                <p class="timg">
+                    <img class="used" src="../images/userd.png">
+                    <img src="../images/down.png">
+                </p>
+                <p class="fsize"><span style="margin-right:5px;">王明丽</span><span>处长</span></p>
+            </div>
+        </nav>
+        <!-- 头部 end -->
+        <div class="container">
+            <!-- 内容 start -->
+            <div style="overflow:hidden;">
+                <!-- 分页 start -->
+                <div class="mypages" style="margin-top:70px;">
+                    <p class="lefts">共 540 条，当前 12 / 24 页</p>
+                    <nav class="mypage" aria-label="Page navigation" >
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&lt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Previous" style="width:60px;">
+                                    <span aria-hidden="true" >上一页</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="selected">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Previous" style="width:60px;">
+                                    <span aria-hidden="true" >下一页</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&gt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a aria-label="Next" style="width:60px;overflow:hidden;margin-left:20px;">
+                                    <input type="text" placeholder="页数.." maxlength="3" style="width:30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">跳</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <!-- 分页 end -->
+            </div>
+            <!-- 位置 start -->
+            <div class="page-header">
+                <img src="../images/marks.png">
+                <p>
+                    <span class="confir">兵器库</span>  &gt  
+                    <span class="consec">邮件挖掘</span>
+
+                </p>
+            </div>
+            <!-- 位置 end -->
+            <!-- 按钮 start-->
+            <div class="mybtns">
+                <button type="button" class="btn btn-defor" style="margin-right:14px;" ><i class="icon-search"></i>查询</button>
+                <button type="button" class="btn btn-defor"><i class="icon-export"></i>导出</button>
+                <button type="button" class="btn btn-defor" style="margin-right:14px;"><i class="icon-import"></i>导入</button>
+                <button type="button" class="btn btn-defor"><i class="icon-plus"></i>添加</button>
+            </div>
+
+
+            <!-- 多/单选框 begin -->
+            <!-- 顺序引用template.css common.js -->
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox" name="aa"></a>
+                  <input type="checkbox" style="display:none" value="自然人贡献度分析图">
+              </div>
+              <span>自然人贡献度分析图</span>
+            </label>
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox" name="aa"></a>
+                  <input type="checkbox" value="楼宇模型图" style="display:none">
+              </div>
+              <span>楼宇模型图</span>
+            </label>
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox"></a>
+                  <input type="checkbox" style="display:none" value="标签统计图">
+              </div>
+              <span>标签统计图</span>
+            </label>
+            <!-- 多/单选框 end -->
+            <!-- 日历插件 -->
+            <div class="dates">
+                <span style="vertical-align:middle;margin-right:10px;">日期区间:</span>
+                <div class="inputCander" style="margin-right:8px;">
+                    <input type="text" placeholder="全部" >
+                    <img src="../images/cander.png">
+                </div> - 
+                <div class="inputCander" style="margin-left:8px;">
+                    <input type="text" placeholder="全部">
+                    <img src="../images/cander.png">
+                </div>
+            </div>
+            <br><br>
+            <!-- 输入框 start -->
+            <div class="input-normal" style="width:250px">
+                <input type="text" placeholder="请输入嫌疑人的邮箱/姓名...">
+            </div>
+            <!-- 带搜索框 -->
+            <div class="input-normal" style="width:250px">
+                <input type="text" placeholder="请输入嫌疑人的邮箱/姓名..."><a class="icon-search"></a>
+            </div>
+            <!-- 输入框 end -->
+            <br><br>
+            <!-- 下拉菜单 begin -->
+            <div class="input-select" style="width:75px">
+                <h1 class="js-input-select-title" data-placeholder="日期"></h1>
+                <ul class="js-input-select" style="display:none;">
+                    <li id="0">啦啦啦1</li>
+                    <li id="1">啦啦啦2</li>
+                    <li id="2">啦啦啦3</li>
+                    <li id="3">啦啦啦4</li>
+                    <li id="4">啦啦啦5</li>
+                    <li id="5">啦啦啦6</li>
+                    <li id="6">啦啦啦7</li>
+                    <li id="7">啦啦啦8</li>
+                    <li id="8">啦啦啦9</li>
+                </ul>
+                <input type="hidden" style="display:none">
+                <!-- 表单存储选择内容 -->
+            </div>
+            <!-- 下拉菜单 end -->
+            <!-- 树形菜单 start -->
+            <script>
+                var setting = {
+                    view: {
+                        addHoverDom: addHoverDom,
+                        removeHoverDom: removeHoverDom,
+                        selectedMulti: false
+                    },
+                    check: {
+                        enable: true
+                    },
+                    data: {
+                        simpleData: {
+                            enable: true
+                        }
+                    },
+                    /*edit: {
+                        enable: true
+                    }*/
+                };
+
+                var zNodes =[
+                {id:1, pId:0, name:"案件1", open:true},
+                {id:101, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                {id:102, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                {id:103, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                {id:104, pId:1, name:"张三<anjun@xunliinfo.com>..."},
+                /*{id:108, pId:1, name:"异步加载 节点数据"},
+                {id:109, pId:1, name:"用 zTree 方法 异步加载 节点数据"},
+                {id:110, pId:1, name:"用 zTree 方法 更新 节点数据"},
+                {id:111, pId:1, name:"单击 节点 控制"},
+                {id:112, pId:1, name:"展开 / 折叠 父节点 控制"},
+                {id:113, pId:1, name:"根据 参数 查找 节点"},
+                {id:114, pId:1, name:"其他 鼠标 事件监听"},
+                {id:115, pId:1, name:"其他 鼠标 事件监听"},*/
+
+                {id:2, pId:0, name:"案件2", open:false},
+                {id:201, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:206, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:207, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:208, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                {id:202, pId:2, name:"张三<anjun@xunliinfo.com>..."},
+                /*{id:203, pId:2, name:"用 zTree 方法 勾选 Checkbox"},
+                {id:204, pId:2, name:"Radio 勾选操作"},
+                {id:209, pId:2, name:"Radio nocheck 演示"},
+                {id:210, pId:2, name:"Radio chkDisabled 演示"},
+                {id:211, pId:2, name:"Radio halfCheck 演示"},
+                {id:205, pId:2, name:"用 zTree 方法 勾选 Radio"},*/
+
+                {id:3, pId:0, name:"案件3", open:false},
+                {id:301, pId:3, name:"张三<anjun@xunliinfo.com>..."},
+                {id:302, pId:3, name:"张三<anjun@xunliinfo.com>..."},
+                {id:303, pId:3, name:"张三<anjun@xunliinfo.com>..."},
+                /*{id:304, pId:3, name:"基本 增 / 删 / 改 节点"},
+                {id:305, pId:3, name:"高级 增 / 删 / 改 节点"},
+                {id:306, pId:3, name:"用 zTree 方法 增 / 删 / 改 节点"},
+                {id:307, pId:3, name:"异步加载 & 编辑功能 共存"},
+                {id:308, pId:3, name:"多棵树之间 的 数据交互"},*/
+
+                /*{id:4, pId:0, name:"大数据量 演示", open:false},
+                {id:401, pId:4, name:"一次性加载大数据量"},
+                {id:402, pId:4, name:"分批异步加载大数据量"},
+                {id:403, pId:4, name:"分批异步加载大数据量"},
+
+                {id:5, pId:0, name:"组合功能 演示", open:false},
+                {id:501, pId:5, name:"冻结根节点"},
+                {id:502, pId:5, name:"单击展开/折叠节点"},
+                {id:503, pId:5, name:"保持展开单一路径"},
+                {id:504, pId:5, name:"添加 自定义控件"},
+                {id:505, pId:5, name:"checkbox / radio 共存"},
+                {id:506, pId:5, name:"左侧菜单"},
+                {id:507, pId:5, name:"下拉菜单"},
+                {id:509, pId:5, name:"带 checkbox 的多选下拉菜单"},
+                {id:510, pId:5, name:"带 radio 的单选下拉菜单"},
+                {id:508, pId:5, name:"右键菜单 的 实现"},
+                {id:511, pId:5, name:"与其他 DOM 拖拽互动"},
+                {id:512, pId:5, name:"异步加载模式下全部展开"},
+
+                {id:6, pId:0, name:"其他扩展功能 演示", open:false},
+                {id:601, pId:6, name:"隐藏普通节点"},
+                {id:602, pId:6, name:"配合 checkbox 的隐藏"},
+                {id:603, pId:6, name:"配合 radio 的隐藏"}*/
+                ];
+
+                $(document).ready(function(){
+                    $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+                });
+
+                var newCount = 1;
+                function addHoverDom(treeId, treeNode) {
+                    var sObj = $("#" + treeNode.tId + "_span");
+                    if (treeNode.editNameFlag || $("#addBtn_"+treeNode.tId).length>0) return;
+                  /* var addStr = "<span class='button add' id='addBtn_" + treeNode.tId
+                        + "' title='add node' onfocus='this.blur();'></span>";
+                    sObj.after(addStr);*/
+                    var btn = $("#addBtn_"+treeNode.tId);
+                    if (btn) btn.bind("click", function(){
+                        var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+                        zTree.addNodes(treeNode, {id:(100 + newCount), pId:treeNode.id, name:"new node" + (newCount++)});
+                        return false;
+                    });
+                };
+                function removeHoverDom(treeId, treeNode) {
+                   $("#addBtn_"+treeNode.tId).unbind().remove();
+                };
+            </script>
+            <ul id="treeDemo" class="ztree"></ul>
+            <!-- 树形菜单 end -->
+        </div>
+        <!-- 内容 end -->
+    </body>
+    
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript">
+
+    </script>
+=======
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/plugs/common.css">
+        <link rel="stylesheet" href="../css/icomoon/style.css">
+        <!-- 树形 strat-->
+        <link rel="stylesheet" href="../css/bootstrapStyle.css" type="text/css">
+        <script src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.core.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.excheck.js"></script>
+        <script type="text/javascript" src="../js/jquery.ztree.exedit.js"></script>
+        <!-- 树形 end-->
+    </head>
+    <body>
+        <!-- 头部 start -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navLeft">
+                <a href="#"><img src="../images/logo.png" alt="勋立云logo"></a>
+            </div>
+            <div class="navMiddle">
+                <ul class="navTabs">
+                    <li class="selected">
+                        <a href="#" class="frichose">
+                            <img src="../images/icon01.png">
+                            <i>系统首页</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon02.png">
+                            <i>线索中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon03.png">
+                            <i>兵器库</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon04.png">
+                            <i>拼图中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon05.png">
+                            <i>战法中心</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon06.png">
+                            <i>智能搜索</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon07.png">
+                            <i>外部数据库</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon08.png">
+                            <i>统计报表</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>数据类型统计</p>
+                            <p>数据趋势统计</p>
+                            <p>案件统计</p>
+                            <p>标签统计</p>
+                            <p>用户行为统计</p>
+                            <p>案件统计</p>
+                            <p>数据趋势统计</p>
+                            <p>数据统计</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="frichose">
+                            <img src="../images/icon09.png">
+                            <i>系统管理</i>
+                        </a>
+                        <!-- 二级菜单 -->
+                         <div class="nextchose">
+                            <p>线索登记</p>
+                            <p>线索列表</p>
+                            <p>线索经营</p>
+                            <p>协同经营</p>
+                            <p>标签管理</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navRight">
+                <p class="timg">
+                    <img class="used" src="../images/userd.png">
+                    <img src="../images/down.png">
+                </p>
+                <p class="fsize"><span style="margin-right:5px;">王明丽</span><span>处长</span></p>
+            </div>
+        </nav>
+        <!-- 头部 end -->
+        <div class="container">
+            <!-- 内容 start -->
+            <div style="overflow:hidden;">
+                <!-- 分页 start -->
+                <div class="mypages" style="margin-top:70px;">
+                    <p class="lefts">共 540 条，当前 12 / 24 页</p>
+                    <nav class="mypage" aria-label="Page navigation" >
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&lt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Previous" style="width:60px;">
+                                    <span aria-hidden="true" >上一页</span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="selected">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Previous" style="width:60px;">
+                                    <span aria-hidden="true" >下一页</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&gt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a aria-label="Next" style="width:60px;overflow:hidden;margin-left:20px;">
+                                    <input type="text" placeholder="页数.." maxlength="3" style="width:30px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">跳</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <!-- 分页 end -->
+            </div>
+            <!-- 位置 start -->
+            <div class="page-header">
+                <img src="../images/marks.png">
+                <p>
+                    <span class="confir">兵器库</span>  &gt  
+                    <span class="consec">邮件挖掘</span>
+
+                </p>
+            </div>
+            <!-- 位置 end -->
+            <!-- 按钮 start-->
+            <div class="mybtns">
+                <button type="button" class="btn btn-defor" style="margin-right:14px;" ><i class="icon-search"></i>查询</button>
+                <button type="button" class="btn btn-defor"><i class="icon-export"></i>导出</button>
+                <button type="button" class="btn btn-defor" style="margin-right:14px;"><i class="icon-import"></i>导入</button>
+                <button type="button" class="btn btn-defor"><i class="icon-plus"></i>添加</button>
+            </div>
+
+
+            <!-- 多/单选框 begin -->
+            <!-- 顺序引用template.css common.js -->
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox" name="aa"></a>
+                  <input type="checkbox" style="display:none" value="自然人贡献度分析图">
+              </div>
+              <span>自然人贡献度分析图</span>
+            </label>
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox" name="aa"></a>
+                  <input type="checkbox" value="楼宇模型图" style="display:none">
+              </div>
+              <span>楼宇模型图</span>
+            </label>
+            <label class="mr"> 
+              <div class="wish-checkbox">
+                  <a class="js-checkbox"></a>
+                  <input type="checkbox" style="display:none" value="标签统计图">
+              </div>
+              <span>标签统计图</span>
+            </label>
+            <!-- 多/单选框 end -->
+            <!-- 日历插件 -->
+            <div class="dates">
+                <span style="vertical-align:middle;margin-right:10px;">日期区间:</span>
+                <div class="inputCander" style="margin-right:8px;">
+                    <input type="text" placeholder="全部" >
+                    <img src="../images/cander.png">
+                </div> - 
+                <div class="inputCander" style="margin-left:8px;">
+                    <input type="text" placeholder="全部">
+                    <img src="../images/cander.png">
+                </div>
+            </div>
+            <br><br>
+            <!-- 输入框 start -->
+            <div class="input-normal" style="width:250px">
+                <input type="text" placeholder="请输入嫌疑人的邮箱/姓名...">
+            </div>
+            <!-- 带搜索框 -->
+            <div class="input-normal" style="width:250px">
+                <input type="text" placeholder="请输入嫌疑人的邮箱/姓名..."><a class="icon-search"></a>
+            </div>
+            <!-- 输入框 end -->
+            <br><br>
+            <!-- 下拉菜单 begin -->
+            <div class="input-select" style="width:75px">
+                <h1 class="js-input-select-title" data-placeholder="日期"></h1>
+                <ul class="js-input-select" style="display:none;">
+                    <li id="0">1</li>
+                    <li id="1">2</li>
+                    <li id="2">3</li>
+                    <li id="3">4</li>
+                    <li id="4">5</li>
+                    <li id="5">6</li>
+                    <li id="6">7</li>
+                    <li id="7">8</li>
+                    <li id="8">9</li>
+                </ul>
+                <input type="hidden" style="display:none">
+                <!-- 表单存储选择内容 -->
+            </div>
+            <!-- 下拉菜单 end -->
+            <div class="col-md-3 contslf">
+                <div class="contop js-change">
+                    <p>选择数据</p>
+                    <i class="icon-bottom"></i>
+                </div>
+                <div class="cont_hidden">
+                    <div class="search">
+                        <div class="input-normal" style="width:248px;margin-top:12px;">
+                            <input type="text" placeholder="请输入嫌疑人的邮箱/姓名..."><a class="icon-search"></a>
+                        </div>
+                    </div>
+                    <!-- 树形菜单 start -->
+                    <div class="trees">
+                        <script>
+                            var setting = {
+                                view: {
+                                    addHoverDom: addHoverDom,
+                                    removeHoverDom: removeHoverDom,
+                                    selectedMulti: false
+                                },
+                                check: {
+                                    enable: true
+                                },
+                                data: {
+                                    simpleData: {
+                                        enable: true
+                                    }
+                                },
+                                /*edit: {
+                                    enable: true
+                                }*/
+                            };
+
+                            var zNodes =[
+                            {id:1, pId:0, name:"案件1", open:true},
+                            {id:101, pId:1, name:"张三<anjun@xunliin..."},
+                            {id:102, pId:1, name:"张三<anjun@xunliin..."},
+                            {id:103, pId:1, name:"张三<anjun@xunliin..."},
+                            {id:104, pId:1, name:"张三<anjun@xunliin..."},
+                            /*{id:108, pId:1, name:"异步加载 节点数据"},
+                            {id:109, pId:1, name:"用 zTree 方法 异步加载 节点数据"},
+                            {id:110, pId:1, name:"用 zTree 方法 更新 节点数据"},
+                            {id:111, pId:1, name:"单击 节点 控制"},
+                            {id:112, pId:1, name:"展开 / 折叠 父节点 控制"},
+                            {id:113, pId:1, name:"根据 参数 查找 节点"},
+                            {id:114, pId:1, name:"其他 鼠标 事件监听"},
+                            {id:115, pId:1, name:"其他 鼠标 事件监听"},*/
+
+                            {id:2, pId:0, name:"案件2", open:true},
+                            {id:201, pId:2, name:"张三<anjun@xunliin..."},
+                            {id:206, pId:2, name:"张三<anjun@xunliin..."},
+                            {id:207, pId:2, name:"张三<anjun@xunliin..."},
+                            {id:208, pId:2, name:"张三<anjun@xunliin..."},
+                            {id:202, pId:2, name:"张三<anjun@xunliin..."},
+                            /*{id:203, pId:2, name:"用 zTree 方法 勾选 Checkbox"},
+                            {id:204, pId:2, name:"Radio 勾选操作"},
+                            {id:209, pId:2, name:"Radio nocheck 演示"},
+                            {id:210, pId:2, name:"Radio chkDisabled 演示"},
+                            {id:211, pId:2, name:"Radio halfCheck 演示"},
+                            {id:205, pId:2, name:"用 zTree 方法 勾选 Radio"},*/
+
+                            {id:3, pId:0, name:"案件3", open:false},
+                            {id:301, pId:3, name:"张三<anjun@xunliin..."},
+                            {id:302, pId:3, name:"张三<anjun@xunliin..."},
+                            {id:303, pId:3, name:"张三<anjun@xunliin..."},
+                            /*{id:304, pId:3, name:"基本 增 / 删 / 改 节点"},
+                            {id:305, pId:3, name:"高级 增 / 删 / 改 节点"},
+                            {id:306, pId:3, name:"用 zTree 方法 增 / 删 / 改 节点"},
+                            {id:307, pId:3, name:"异步加载 & 编辑功能 共存"},
+                            {id:308, pId:3, name:"多棵树之间 的 数据交互"},*/
+
+                           {id:4, pId:0, name:"案件4", open:false},
+                            {id:401, pId:4, name:"张三<anjun@xunliin..."},
+                            {id:402, pId:4, name:"张三<anjun@xunliin..."},
+                            {id:403, pId:4, name:"张三<anjun@xunliin..."},
+
+                            /*{id:5, pId:0, name:"组合功能 演示", open:false},
+                            {id:501, pId:5, name:"冻结根节点"},
+                            {id:502, pId:5, name:"单击展开/折叠节点"},
+                            {id:503, pId:5, name:"保持展开单一路径"},
+                            {id:504, pId:5, name:"添加 自定义控件"},
+                            {id:505, pId:5, name:"checkbox / radio 共存"},
+                            {id:506, pId:5, name:"左侧菜单"},
+                            {id:507, pId:5, name:"下拉菜单"},
+                            {id:509, pId:5, name:"带 checkbox 的多选下拉菜单"},
+                            {id:510, pId:5, name:"带 radio 的单选下拉菜单"},
+                            {id:508, pId:5, name:"右键菜单 的 实现"},
+                            {id:511, pId:5, name:"与其他 DOM 拖拽互动"},
+                            {id:512, pId:5, name:"异步加载模式下全部展开"},
+
+                            {id:6, pId:0, name:"其他扩展功能 演示", open:false},
+                            {id:601, pId:6, name:"隐藏普通节点"},
+                            {id:602, pId:6, name:"配合 checkbox 的隐藏"},
+                            {id:603, pId:6, name:"配合 radio 的隐藏"}*/
+                            ];
+
+                            $(document).ready(function(){
+                                $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+                            });
+
+                            var newCount = 1;
+                            function addHoverDom(treeId, treeNode) {
+                                var sObj = $("#" + treeNode.tId + "_span");
+                                if (treeNode.editNameFlag || $("#addBtn_"+treeNode.tId).length>0) return;
+                              /* var addStr = "<span class='button add' id='addBtn_" + treeNode.tId
+                                    + "' title='add node' onfocus='this.blur();'></span>";
+                                sObj.after(addStr);*/
+                                var btn = $("#addBtn_"+treeNode.tId);
+                                if (btn) btn.bind("click", function(){
+                                    var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+                                    zTree.addNodes(treeNode, {id:(100 + newCount), pId:treeNode.id, name:"new node" + (newCount++)});
+                                    return false;
+                                });
+                            };
+                            function removeHoverDom(treeId, treeNode) {
+                               $("#addBtn_"+treeNode.tId).unbind().remove();
+                            };
+                        </script>
+                        <ul id="treeDemo" class="ztree"></ul>
+                    </div>
+                    <!-- 树形菜单 end -->
+
+                </div>
+        </div>
+        <!-- 内容 end -->
+    </body>
+    
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript">
+    /*点击按钮展开关闭*/
+    $(".js-change").click(function(){
+            
+            if($(".cont_hidden").hasClass("hide")){
+                $(".cont_hidden").removeClass("hide");
+                $(".js-change i").attr("class","icon-bottom");
+
+            }else{
+                $(".cont_hidden").addClass("hide");
+                $(".js-change i").attr("class","icon-top");
+
+            }
+        })
+    </script>
+>>>>>>> .r585
+</html>

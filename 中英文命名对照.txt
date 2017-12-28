@@ -1,0 +1,8 @@
+电子邮件工作台
+Mail_desk.html						邮件挖掘
+Sreport_tag.html						标签统计
+Sreport_user.html						用户行为统计
+Sreport_cases.html						案件统计
+Sreport_datatype.html					数据类型统计
+Sreport_trend.html					数据趋势统计
+

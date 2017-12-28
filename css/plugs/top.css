@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*字体颜色*/
+/*背景色颜色*/
+/*hover背景色*/
+/*基础蓝色*/
+/*线条颜色*/
+/*线条边框*/
+/*线条边框*/
+/*分页边框颜色*/
+p,
+span {
+  cursor: default;
+}
+/*头部start*/
+.navbar-inverse {
+  background-color: #00ade9;
+  border-color: #00ade9;
+}
+.navbar {
+  height: 70px;
+  margin-bottom: 0px !important;
+  padding: 0 30px;
+}
+.navLeft {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  float: left;
+  width: 320px;
+  margin-right: 80px;
+}
+.navLeft a {
+  display: inline-block;
+}
+.navLeft img {
+  display: inline-block;
+  width: 320px;
+  height: 28px;
+  vertical-align: middle;
+}
+.navMiddle {
+  display: inline-block;
+}
+.navMiddle .navTabs {
+  font-size: 0px;
+  display: inline-block;
+  height: 70px;
+  vertical-align: top;
+}
+.navMiddle .navTabs .selected a {
+  color: #ffffff !important;
+}
+.navMiddle .navTabs li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  height: 70px;
+  width: 90px;
+  vertical-align: top;
+  font-size: 14px;
+}
+.navMiddle .navTabs li .frichose {
+  width: 90px;
+  height: 70px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.navMiddle .navTabs li .frichose:hover {
+  color: #ffffff !important;
+}
+.navMiddle .navTabs li .frichose img {
+  margin: 15px 0 5px 0;
+}
+.navMiddle .navTabs li .frichose i {
+  display: block;
+  font-style: normal;
+  color: #ffffff;
+}
+.navMiddle .navTabs li:hover {
+  background-color: #009cd1;
+}
+.navMiddle .navTabs li:hover .nextchose {
+  display: inline-block;
+}
+.navMiddle .navTabs li .nextchose {
+  display: none;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 168px;
+  height: auto;
+  padding: 10px 0px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0px 5px 15px #999999;
+  -webkit-box-shadow: 0px 5px 15px #999999;
+  box-shadow: 0px 5px 15px #999999;
+}
+.navMiddle .navTabs li .nextchose p {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 22px;
+  color: #333333;
+}
+.navMiddle .navTabs li .nextchose p:hover {
+  background-color: #00ade9;
+  font-weight: 600;
+}
+.navMiddle .navTabs .selected {
+  background-color: #009cd1;
+}
+.navRight {
+  float: right;
+  color: #ffffff;
+  height: 70px;
+  width: 126px;
+  text-align: center;
+  background-color: #009cd1;
+}
+.navRight .timg {
+  margin: 10px 0 5px 0;
+}
+.navRight .timg .used {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+.navRight .fsize {
+  font-size: 14px;
+  color: #ffffff;
+}
+/*头部end*/

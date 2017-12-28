@@ -1,0 +1,192 @@
+/*字体颜色*/
+/*背景色颜色*/
+/*hover背景色*/
+/*基础蓝色*/
+/*线条颜色*/
+/*线条边框*/
+/*线条边框*/
+/*分页边框颜色*/
+.main-tab {
+  display: inline-block;
+  float: right;
+  font-size: 0px;
+}
+.main-tab .nor {
+  display: inline-block;
+  width: 88px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.main-tab .tab01 {
+  background-color: #00afea;
+  color: #ffffff;
+  margin-right: 14px;
+  vertical-align: middle;
+}
+.main-tab .tab02 {
+  background: -webkit-linear-gradient(#ededed, #fdfdfd);
+  background: linear-gradient(#ededed, #fdfdfd);
+  background: -moz-linear-gradient(#ededed, #fdfdfd);
+  background: -o-linear-gradient(#ededed, #fdfdfd);
+  border: 1px solid #cdd8dd;
+  vertical-align: middle;
+}
+.mainConts {
+  width: 100%;
+  height: auto;
+}
+.mainConts .contslf .contop {
+  height: 60px;
+  line-height: 60px;
+  background-color: #f6fafc;
+  padding: 0 16px;
+}
+.mainConts .contslf .contop p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+}
+.mainConts .contslf .contop i {
+  float: right;
+  line-height: 60px;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mainConts .contslf .cont_hidden {
+  height: auto;
+  background-color: #ffffff;
+}
+.mainConts .contslf .cont_hidden .search {
+  height: 65px;
+  padding: 0 26px;
+  border-bottom: 1px solid #e3e6eb;
+}
+.mainConts .contslf .cont_hidden .trees {
+  height: 370px;
+  overflow-y: auto;
+  overfow-x: hidden;
+  padding: 25px 10px 0 10px;
+}
+.mainConts .contslf .cont_hiddens {
+  height: auto;
+  background-color: #ffffff;
+  padding: 14px 0 0 14px;
+}
+.mainConts .contslf .cont_hiddens li {
+  height: 22px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  cursor: default;
+  font-size: 12px;
+  color: #999999;
+}
+.mainConts .contslf .cont_hiddens li img {
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.mainConts .contslf .cont_hiddens .selected {
+  background-color: #00afea;
+  color: #ffffff;
+}
+.mainConts .contslf .hide {
+  display: none;
+}
+.mainConts .contsrg {
+  background-color: #ffffff;
+  padding: 0px !important;
+}
+.mainConts .contsrg .tabs {
+  height: 60px;
+  background-color: #f6fafc;
+  font-size: 0px;
+}
+.mainConts .contsrg .tabs a {
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 700;
+  width: 150px;
+  vertical-align: top;
+}
+.mainConts .contsrg .tabs .selected {
+  border-top: 3px solid #00ade9;
+  color: #00ade9;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 60px;
+}
+.mainConts .contsrg .rgConts .partone {
+  padding-left: 25px;
+  height: 60px;
+  line-height: 60px;
+}
+.mainConts .contsrg .rgConts .partone .sizes {
+  font-size: 12px;
+  color: #666666;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.mainConts .contsrg .rgConts .partone h1 {
+  font-size: 12px;
+  color: #333333;
+}
+.mainConts .contsrg .rgConts .partone .dates {
+  margin-right: 12px;
+}
+.mainConts .contsrg .rgConts .partone .dates img {
+  top: 22px;
+}
+.mainConts .contsrg .rgConts .partone .dates span {
+  font-size: 12px;
+  color: #666666;
+  vertical-align: middle;
+}
+.mainConts .contsrg .rgConts .partone .dates input {
+  font-size: 12px;
+  color: #999999;
+}
+.mainConts .contsrg .rgConts .partone .btn {
+  margin: 0 5px 0 15px;
+}
+.mainConts .contsrg .rgConts .partone .duo span {
+  font-size: 12px;
+  color: #999999;
+  margin-left: -3px;
+  vertical-align: middle;
+}
+.mainConts .contsrg .rgConts .partone .gsecrchs {
+  font-size: 12px;
+  color: #00ade9;
+  margin-left: 16px;
+}
+.mainConts .contsrg .rgConts .search_result {
+  width: 100%;
+  height: 40px;
+  padding-left: 25px;
+}
+.mainConts .contsrg .rgConts .search_result .mytit {
+  line-height: 30px;
+  color: #999999;
+  font-size: 12px;
+}
+.mainConts .contsrg .rgConts .search_result .contants {
+  display: inline-block;
+}
+.mainConts .contsrg .rgConts .search_result .contants span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  text-align: center;
+  background-color: #f6fafc;
+}
